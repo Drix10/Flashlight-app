@@ -1,0 +1,4 @@
+#|
+$JSON
+{"authURL":["ai2.appinventor.mit.edu"],"YaVersion":"206","Source":"Form","Properties":{"$Name":"Screen1","$Type":"Form","$Version":"27","ActionBar":"True","AlignHorizontal":"3","AlignVertical":"2","AppName":"Flashlight","BackgroundColor":"&HFFFFFF00","Icon":"OFF.png","ScreenOrientation":"portrait","ShowStatusBar":"False","Theme":"AppTheme","Title":"Screen1","Uuid":"0","$Components":[{"$Name":"Button1","$Type":"Button","$Version":"6","BackgroundColor":"&HFF00FFFF","FontSize":"0","Height":"-2","Width":"-2","Image":"OFF.png","Text":"Text for Button1","Uuid":"-1460160370"},{"$Name":"Notifier1","$Type":"Notifier","$Version":"6","Uuid":"1671766840"},{"$Name":"TaifunFlashlight1","$Type":"TaifunFlashlight","$Version":"2","Uuid":"-772948722"}]}}
+|#
