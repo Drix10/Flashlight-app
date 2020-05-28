@@ -1,0 +1,55 @@
+[{
+ "categoryString": "EXTENSION",
+ "nonVisible": "true",
+ "iconName": "https://puravidaapps.com/images/taifun16.png",
+ "methods": [
+  {
+   "deprecated": "false",
+   "name": "Off",
+   "description": "turn off the flashlight.",
+   "params": []
+  },
+  {
+   "deprecated": "false",
+   "name": "On",
+   "description": "turn on the flashlight.",
+   "params": []
+  }
+ ],
+ "blockProperties": [{
+  "rw": "read-only",
+  "deprecated": "false",
+  "name": "HasFlash",
+  "description": "whether the device has flash",
+  "type": "boolean"
+ }],
+ "helpUrl": "https://puravidaapps.com/flashlight.php",
+ "type": "com.puravidaapps.TaifunFlashlight",
+ "androidMinSdk": 7,
+ "version": "2",
+ "external": "true",
+ "showOnPalette": "true",
+ "name": "TaifunFlashlight",
+ "helpString": "Extension to turn on/off the flashlight.Version 2a as of 2019-02-06 for App Inventor version nb174 and Companion version 2.50.",
+ "properties": [],
+ "events": [
+  {
+   "deprecated": "false",
+   "name": "PermissionDenied",
+   "description": "Permission has been denied.",
+   "params": [{
+    "name": "permissionName",
+    "type": "text"
+   }]
+  },
+  {
+   "deprecated": "false",
+   "name": "Success",
+   "description": "Flashlight has been successfully turned on/off.",
+   "params": [{
+    "name": "isFlashOn",
+    "type": "boolean"
+   }]
+  }
+ ]
+}]
